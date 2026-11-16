@@ -1,4 +1,5 @@
 import { ActiveLink } from "@/components/active-link";
+import { Logo } from "@/components/logo";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
@@ -10,7 +11,7 @@ export const Header = () => {
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
         <div className="flex h-16 items-center justify-between">
-          <Link href="/">Logo</Link>
+          <Logo />
 
           <nav className="flex items-center gap-6">
             <ActiveLink href="/">Início</ActiveLink>
